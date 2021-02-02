@@ -5,8 +5,7 @@ body {
 li {
   font-family: helvetica;
   font-size: 20px;
-
-
+  color: white;
 
 }
 h1 {
@@ -17,4 +16,18 @@ h1 {
 p {
   font-family: helvetica;
   font-size: 20px;
+  color: white;
+}
+
+a:link, a:visited {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: black;
 }
