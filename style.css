@@ -46,7 +46,7 @@ a:hover, a:active {
 
 }
 body {
-  background-image: url('aboutpic.jpg');
+  
 
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -99,6 +99,13 @@ body {
   /* background-color: red; */
   margin-top: 225px;
   float: left;
-  background-color: lightgrey;
-  p
+  background-color: rgb(100, 170, 230, 0.3);
+
+
+
+
+
+}
+div.second {
+  background: rgb(100, 170, 230, 0.3);
 }
