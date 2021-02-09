@@ -109,3 +109,12 @@ body {
 div.second {
   background: rgb(100, 170, 230, 0.3);
 }
+
+#spotify{
+  width:80%;
+  height:400px;
+  /* background-color: red; */
+  margin-top: 200px;
+  float: left;
+
+}
