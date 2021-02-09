@@ -22,6 +22,7 @@ p {
   font-family: helvetica;
   font-size: 20px;
   color: white;
+  align-self: auto;
 }
 
 a:link, a:visited {
@@ -44,8 +45,60 @@ a:hover, a:active {
 
 
 }
-.mybio{
-align-self: center;
+body {
+  background-image: url('aboutpic.jpg');
+
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
 
 
+
+
+#top{
+  width:90%;
+
+  /* background-color: green; */
+
+
+}
+
+#left{
+  width:10%;
+  height:400px;
+  /* background-color: green; */
+  margin-top: 200px;
+  float: left;
+}
+
+#center{
+  width:80%;
+  height:400px;
+  /* background-color: red; */
+  margin-top: 200px;
+  float: left;
+}
+
+#right{
+  width:10%;
+  height:400px;
+  /* background-color: blue; */
+  margin-top: 200px;
+  float: left;
+  padding-top: 5px;
+}
+.limit{
+    width:50px;
+    word-wrap: break-word;
+}
+#bio{
+  width:80%;
+  height:250px;
+
+  /* background-color: red; */
+  margin-top: 225px;
+  float: left;
+  background-color: lightgrey;
+  p
 }
