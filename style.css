@@ -46,7 +46,7 @@ a:hover, a:active {
 
 }
 body {
-  background-image: url('aboutpic.jpg');
+  /* background-image: url('aboutpic.jpg'); */
 
   background-repeat: no-repeat;
   background-attachment: fixed;
