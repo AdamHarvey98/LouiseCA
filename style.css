@@ -120,23 +120,16 @@ div.second {
 }
 #videocenter{
   width:80%;
-  height:200px;
+  height:400px;
   /* background-color: red; */
   margin-top: 200px;
   float: left;
-  padding-left: 80px;
 }
 
-/* .section {
-  position: relative;
-  width:100%;
-  height:100vh;
-  display:flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden; */
-
-
-
-
+#centervideo{
+  width:80%;
+  height:400px;
+  /* background-color: red; */
+  margin-top: 225px;
+  float: left;
 }
