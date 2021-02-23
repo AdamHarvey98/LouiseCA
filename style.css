@@ -110,12 +110,13 @@ div.second {
   background: rgb(100, 170, 230, 0.3);
 }
 
-#spotify{
+#spotify_soundcloud{
   width:80%;
   height:400px;
   /* background-color: red; */
   margin-top: 225px;
   float: left;
+
 
 }
 /*  */
@@ -126,4 +127,16 @@ div.second {
   /* background-color: red; */
   margin-top: 225px;
   float: left;
+}
+
+#spotify{
+  margin-left: 300px;
+
+
+}
+
+#soundcloud{
+  margin-right: 300px;
+float: right;
+
 }
