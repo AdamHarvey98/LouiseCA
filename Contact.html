@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+	<head>
+<script>
+function validateForm() {
+  var x = document.forms["myForm"]["fname"].value;
+  if (x == "") {
+    alert("Email must be filled out");
+    return false;
+  }
+}
+</script>
+		<title>Invader Slim Website</title>
+
+<link rel="stylesheet" href="style.css">
+
+
+	</head>
+
+	<body>
+
+		<style>
+
+
+	body {
+		background-image: url('contactimg.jpg');
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+	}
+
+
+
+
+
+	</style>
+
+	<body>
+
+
+
+
+
+
+ <br>
+ <br>
+
+
+
+
+
+<div id="left">
+
+
+ <ul>
+
+
+
+      <li><a href="Homepage.html">Home</a></li>
+      <li><a href="About.html">About</a></li>
+      <li><a href="Music.html">Music</a></li>
+      <li><a href="Videos.html">Videos</a></li>
+      <li><a href="Contact.html">Contact</a></li>
+
+
+ </ul>
+
+</div>
+<!-- <div id="top">
+	<p style="text-align:center;">Invader Slim Website</p> -->
+<br>
+
+
+
+<div id="centervideo">
+  <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+    Email: <input type="text" name="fname">
+    <input type="submit" value="Submit">
+  </form>
+
+	</div>
+
+	<div id="right">
+		<a href="https://www.instagram.com/midasmagie/?hl=en"  target="_blank">
+		  <img src="iglogo.png" alt="HTML tutorial" style="width:80px;height:80px;">
+		</a>
+<br>
+		<a href="https://open.spotify.com/artist/61UslIj7MNJowFWA0l7XIf"  target="_blank">
+		  <img src="spotify.png" alt="HTML tutorial" style="width:80px;height:80px;">
+		</a>
+<br>
+<a href="https://www.facebook.com/invaderslim/"  target="_blank">
+	<img src="facebook.png" alt="HTML tutorial" style="width:80px;height:80px;">
+</a>
+
+		</div>
+
+
+
+</body>
+</html>
