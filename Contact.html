@@ -3,11 +3,13 @@
 	<head>
 <script>
 function validateForm() {
-  var x = document.forms["Email"]["Email"].value;
+  var x = document.forms["myForm"]["fname"].value;
   if (x == "") {
-    alert("Email must be filled out");
+    alert("Name must be filled out");
     return false;
   }
+
+}
 }
 </script>
 		<title>Invader Slim Website</title>
@@ -74,7 +76,7 @@ function validateForm() {
 
 <div id="centervideo">
 
-  <form action="caphp.php" method= "post" >
+  <form name = question action="caphp.php" method= "post" >
     <label for="email">Email</label>
     <input type="text" id="email" name="email" placeholder="Your email..">
 
@@ -84,8 +86,8 @@ function validateForm() {
 
     <input type="submit" value="Submit">
   </form>
-</div>
 
+</div>
 	<div id="right">
 		<a href="https://www.instagram.com/midasmagie/?hl=en"  target="_blank">
 		  <img src="iglogo.png" alt="HTML tutorial" style="width:80px;height:80px;">
