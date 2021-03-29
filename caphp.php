@@ -48,7 +48,11 @@ if (mysqli_num_rows($result) > 0) {
   echo "0 results";
 }
 
+<<<<<<< HEAD
 header("refresh:2; url=Contact.html");
+=======
+header("refresh:1; url=Contact.html");
+>>>>>>> 53a5a7670414d15e9c44bfdff69e47c5e7f6cc95
 
 mysqli_close($conn);
 ?>
