@@ -4,9 +4,12 @@ $servername = "localhost";
 $username = "root";
 $password = "";
 
-echo $_POST['email'];
+// echo $_POST['email'];
+//
+// echo $_POST['subject'];
+$email = $_POST['email'];
+$subject = $_POST['subject'];
 
-echo $_POST['subject'];
 
 echo "<br>";
 
@@ -19,7 +22,7 @@ if (!$conn) {
   die("Connection failed: " . mysqli_connect_error());
 }
 
-$sql = "INSERT INTO email (email) VALUES ('".$_POST['email']."')";
+$sql = "INSERT INTO email (email,subject) VALUES ('$email','$subject')";
 
 if (mysqli_query($conn, $sql)) {
   echo "New record created successfully";
