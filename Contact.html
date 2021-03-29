@@ -73,12 +73,18 @@ function validateForm() {
 
 
 <div id="centervideo">
-  <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
-    Email: <input type="text" name="fname">
+
+  <form action="/action_page.php">
+    <label for="email">Email</label>
+    <input type="text" id="email" name="email" placeholder="Your email..">
+
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Ask a question.." style="height:200px"></textarea>
+
     <input type="submit" value="Submit">
   </form>
-
-	</div>
+</div>
 
 	<div id="right">
 		<a href="https://www.instagram.com/midasmagie/?hl=en"  target="_blank">
