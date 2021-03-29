@@ -3,7 +3,7 @@
 	<head>
 <script>
 function validateForm() {
-  var x = document.forms["myForm"]["fname"].value;
+  var x = document.forms["Email"]["Email"].value;
   if (x == "") {
     alert("Email must be filled out");
     return false;
@@ -74,7 +74,7 @@ function validateForm() {
 
 <div id="centervideo">
 
-  <form action="/caphp.php" method="post">
+  <form action="caphp.php" method= "post" >
     <label for="email">Email</label>
     <input type="text" id="email" name="email" placeholder="Your email..">
 
