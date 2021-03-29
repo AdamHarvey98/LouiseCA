@@ -1,7 +1,15 @@
 <?php
-// echo $email;
+
+$servername = "localhost";
+$username = "root";
+$password = "";
+
+
+$conn = mysqli_connect($servername, $username, $password);
 
 echo $_POST['email'];
+
+echo "<br>";
 
 echo $_POST['subject'];
 ?>
