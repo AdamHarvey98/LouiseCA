@@ -8,7 +8,7 @@ echo $_POST['email'];
 
 echo "<br>";
 
-$dbname = "email";
+$dbname = "catest";
 
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $dbname);
