@@ -3,20 +3,20 @@
 	<head>
 <script>
 function validateForm() {
-  var x = document.forms["myform"]["email","subject"].value;
-  if (x == "") {
-    alert("Email and Subject must be filled out");
+  var x1 = document.forms["myform"]["email"].value;
+	var x2 = document.forms["myform"]["subject"].value;
+  if (x1 == "") {
+    alert("Email must be filled out");
     return false;
-  }
-
 }
-
-function validateForm2() {
-  var x = document.forms["myform"]["subject"].value;
-  if (x == "") {
-    alert("Subject must be filled out");
-    return false;
+		if (x2 == "") {
+	    alert("Subject must be filled out");
+	    return false;
   }
+
+
+
+
 
 }
 </script>
