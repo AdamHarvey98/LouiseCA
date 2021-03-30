@@ -99,7 +99,7 @@ body {
   /* background-color: red; */
   margin-top: 225px;
   float: left;
-  background-color: rgb(100, 170, 230, 0.3);
+  background: rgba(0, 0, 0, 0.5);
 
 
 
@@ -181,8 +181,8 @@ input[type=submit]:hover {
   /* background-color: red; */
   margin-top: 225px;
   float: left;
-  text-decoration-color: black
-  /* background-color: rgb(100, 170, 230, 0.3); */
+
+
 
 
 
