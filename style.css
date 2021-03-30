@@ -173,3 +173,19 @@ input[type=submit]:hover {
   background-color: #f2f2f2;
   padding: 20px;
 }
+#bio2{
+  width:80%;
+  height:250px;
+  padding-left: 15%;
+  padding-top: 5%;
+  /* background-color: red; */
+  margin-top: 225px;
+  float: left;
+  text-decoration-color: black
+  /* background-color: rgb(100, 170, 230, 0.3); */
+
+
+
+
+
+}

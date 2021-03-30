@@ -48,7 +48,7 @@ if (mysqli_num_rows($result) > 0) {
   echo "0 results";
 }
 
-header("refresh:1; url=contact.html");
+header("refresh:1; url=formsubmitted.html");
 
 mysqli_close($conn);
 ?>
