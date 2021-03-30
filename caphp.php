@@ -1,8 +1,8 @@
 <?php
 
-$servername = "localhost";
-$username = "root";
-$password = "";
+$servername = "mysql4416int.cp.blacknight.com";
+$username = "u1202082_ah";
+$password = "_MHJv8s";
 
 // echo $_POST['email'];
 //
@@ -13,7 +13,7 @@ $subject = $_POST['subject'];
 
 echo "<br>";
 
-$dbname = "CAtest";
+$dbname = "db1202082_ah";
 
 
 $conn = mysqli_connect($servername, $username, $password, $dbname);
